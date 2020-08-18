@@ -1,0 +1,15 @@
+.place__link{
+margin:0;
+color:#fff;
+font-family: 'Inter' , Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+margin-top: 10px;
+}
+
+.place__link:hover{
+    letter-spacing: 0.2em
+    }
