@@ -28,14 +28,7 @@ margin-bottom: 0;
 	}
 }
 
-@media screen and (min-width: 450px) and (max-width: 599px) {
-	.cover__title {
-		font-size: 43px;
-		line-height: 47px;
-		max-width: 300px;
-		margin-top: 64px;
-	}
-}
+
 
 @media screen and (min-width: 600px) and (max-width: 767px) {
 	.cover__title {

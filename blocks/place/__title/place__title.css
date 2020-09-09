@@ -29,8 +29,3 @@ line-height: 76px;
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-	.place:first-of-type .place__title{
-		width: 8ch;
-	}
-}
