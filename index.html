@@ -8,13 +8,13 @@
 </head>
     <body>
         <div class="page">
-        <header class="header">
-            <img class="header__logo" src="./images/logo/__logo.svg" alt="логотип карты">
-            <div class="header__lang">
-            <a class="header__link header__link_active" href="#">Ru</a>
-            <a class="header__link" href="#">En</a>
-            </div>
-        </header>
+            <header class="header">
+                <img class="header__logo" src="./images/logo/__logo.svg" alt="Россия">
+                <ul class="header__lang-link-wrapper">
+                  <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+                  <li><a class="header__lang-link" href="#">En</a></li>
+                </ul>
+              </header>
         
            <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
@@ -115,23 +115,24 @@
                     </div>
                </section>
                <section class="cover">
-               <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-                <h2 class="cover__title">До Байкала "на собаках"</h2>
-                <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</h3>
-        
-            </a>
+                <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay">
+                  <h2 class="cover__title">До Байкала «на собаках»</h2>
+                  <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+                </a>
+              
         </section>
         
+        
         <footer class="footer">
-            <div class="footer__nav">
-                <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-                <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-                <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-                <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-                <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
-            </div>
-            <p class="footer__copyright">&#169;Роман Бабских</p>
-        </footer>
+            <nav class="footer__link-wrapper">
+              <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+              <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+              <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+              <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+              <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+            </nav>
+            <p class="footer__copyright">&copy;2020.Роман Бабских</p>
+          </footer>
 
         
     </div>
