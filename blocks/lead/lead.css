@@ -4,8 +4,7 @@
 @import url('./__caption/lead__caption.css');
 
 .lead {
-	width: 100%;
-	max-width: 984px;
+	max-width: 928px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
