@@ -10,7 +10,7 @@
     align-items: center;
     background-color: #0000004d;
     background-blend-mode: multiply;
-    transition: background-color 0.3s; 
+    transition: background-color 0.3s;
     text-decoration: none;
     background-size: cover;
     }

@@ -1,8 +1,8 @@
 .cover__overlay{
-display: flex; 
-flex-direction: column; 
-color: #fff; 
-text-decoration: none; 
+display: flex;
+flex-direction: column;
+color: #fff;
+text-decoration: none;
 align-items: center;
 z-index: 2;
 }
