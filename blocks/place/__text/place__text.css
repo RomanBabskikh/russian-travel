@@ -1,9 +1,9 @@
 .place__text{
 margin: 0 0 36px;
 width: 100%;
-font-weight: 400;
+/*font-weight: 400;
 font-size: 18px;
-line-height: 30px;
+line-height: 30px;*/
 color: #fff;
 }
 
@@ -18,13 +18,9 @@ color: #fff;
 	.place__text {
 		margin: 0 0 24px;
 	}
-
-	.place__text:last-of-type {
-		margin: 0;
-	}
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1279px), screen and (min-width: 1280px) {
 	.place__text:last-of-type {
 		margin: 0;
 	}

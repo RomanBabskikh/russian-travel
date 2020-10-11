@@ -31,7 +31,7 @@ grid-template-columns: repeat(4, 1fr);
 	  width: calc(100% - 48px);
 	  padding-top:  88px;
 	  grid-template-columns: repeat(2, 1fr);
-	  gap: 16px;
+	  /* gap: 16px; */
 	}
   }
   

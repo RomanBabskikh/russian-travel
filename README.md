@@ -8,7 +8,6 @@ Russia-Travel
 Первое знакомство с фигмой,то как верстальщик/разработчик получает задачи.
 
 
-https://github.com/RomanBabskikh/russian-travel
-
+[сайт](https://romanbabskikh.github.io/russian-travel/)
 
 
