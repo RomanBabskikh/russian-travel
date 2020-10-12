@@ -10,3 +10,7 @@ margin-top: 12px;
 transition: opacity 0.3s;
 }
 
+.place__link:hover{
+    opacity: 0.8;
+}
+
