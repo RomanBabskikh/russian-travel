@@ -3,13 +3,11 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 163%;
-margin-top: 24px;
+margin-top: 32px;
 margin:0;
 }
 
-.place__paragraph:first-of-type {
-	margin-top: 0;
-}
+
   
   @media screen and (max-width: 768px) {
 	.place__paragraph {
