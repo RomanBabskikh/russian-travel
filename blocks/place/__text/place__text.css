@@ -13,7 +13,7 @@ line-height: 30px;*/
 @media screen and (max-width: 767px) {
     .place__text {
         width: calc(100% - 16px * 2);
-        margin: 24px 16px 0;
+        margin: 24px 0 0;
     }
 }
 
