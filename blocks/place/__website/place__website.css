@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 320px) {
     .place__website {
-        display: none;
+        margin:auto;
+		width: 325px;
     }
 }
