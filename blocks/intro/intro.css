@@ -1,34 +1,30 @@
-@import url('./__title/intro__title.css');
-@import url('./__text/intro__text.css');
-@import url('./__list/intro__list.css');
-@import url('./__span/intro__span.css');
-
-
-.intro{
-padding-top: 92px;
-max-width: 984px;
-margin: 0 auto;
-}
-
-@media screen and (max-width: 1024px){
-
-	.intro {
-		width: calc(100% - 96px);}
-	}
-	
-	@media screen and (max-width: 768px){
-
-		.intro {
-			padding-top: 88px;
-			width: calc(100% - 48px);}
-		}
-
-@media screen and (max-width: 320px){
+@import url("./__title/intro__title.css");
+@import url("./__text/intro__text.css");
+@import url("./__list/intro__list.css");
+@import url("./__span/intro__span.css");
 
 .intro {
-    padding-top: 64px;
-	width: calc(100% - 36px);}
+    padding-top: 92px;
+    max-width: 984px;
+    margin: 0 auto;
 }
 
+@media screen and (max-width: 1024px) {
+    .intro {
+        width: calc(100% - 96px);
+    }
+}
 
+@media screen and (max-width: 768px) {
+    .intro {
+        padding-top: 88px;
+        width: calc(100% - 48px);
+    }
+}
 
+@media screen and (max-width: 320px) {
+    .intro {
+        padding-top: 64px;
+        width: calc(100% - 36px);
+    }
+}
