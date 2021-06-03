@@ -10,10 +10,10 @@ line-height: 30px;*/
     margin-top: 0;
 }
 
-@media screen and (max-width: 767px) and (max-width: 320px){
+@media screen and (max-width: 767px){
     .place__text {
         width: calc(100% - 16px * 2);
-        margin: 24px 16px 0;
+        /* margin: 24px 16px 0; */
     }
 }
 
